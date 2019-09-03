@@ -4,4 +4,4 @@
 This project will be used in order to be familiar with open source contribution. We will build a distributed database that supports aggregation functions.
 
 ### How to contribute
-We will add instructions soon.
+We will add instructions soon. t
