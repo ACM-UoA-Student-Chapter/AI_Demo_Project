@@ -12,13 +12,13 @@ This project will be used to be familiar with open source contribution. We will 
     4. Follow the instructions
     5. Verify your email address
     6. DONE!
-    
+
 2. Download Git
     1. Open your browser
     2. Go to https://git-scm.com/downloads
     3. Follow the instructions
     4. DONE!
-    
+
 3. Upload your file
     1.  Open your browser
     2.  Navigate to https://github.com/ACM-UoA-Student-Chapter/AI_Demo_Project
