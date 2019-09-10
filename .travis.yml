@@ -1,0 +1,8 @@
+language: python
+python:
+  - 3.6
+install:
+  - sudo apt-get update
+  - pip3 install torch torchvision
+  - pip3 install syft
+script: python3 run.py
