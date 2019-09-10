@@ -1,5 +1,7 @@
 [![Build Status](https://travis-ci.org/ACM-UoA-Student-Chapter/AI_Demo_Project.svg?branch=master)](https://travis-ci.org/ACM-UoA-Student-Chapter/AI_Demo_Project)
 
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FACM-UoA-Student-Chapter%2FAI_Demo_Project.svg?type=small)]
+
 # Demo project in AI
 
 ### Project Description
