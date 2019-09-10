@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/ACM-UoA-Student-Chapter/AI_Demo_Project.svg?branch=master)](https://travis-ci.org/ACM-UoA-Student-Chapter/AI_Demo_Project)
+
 # Demo project in AI
 
 ### Project Description
