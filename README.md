@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/ACM-UoA-Student-Chapter/AI_Demo_Project.svg?branch=master)](https://travis-ci.org/ACM-UoA-Student-Chapter/AI_Demo_Project) [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FACM-UoA-Student-Chapter%2FAI_Demo_Project.svg?type=small)]
+[![Build Status](https://travis-ci.org/ACM-UoA-Student-Chapter/AI_Demo_Project.svg?branch=master)](https://travis-ci.org/ACM-UoA-Student-Chapter/AI_Demo_Project) [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FACM-UoA-Student-Chapter%2FAI_Demo_Project.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FACM-UoA-Student-Chapter%2FAI_Demo_Project?ref=badge_shield)
 
 # Demo project in AI
 
@@ -50,3 +50,9 @@ This project will be used to be familiar with open source contribution. We will 
 ------
 
 <p align = center> <b> ACM UoA Student Chapter </b> </p>
+
+
+
+## License
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FACM-UoA-Student-Chapter%2FAI_Demo_Project.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FACM-UoA-Student-Chapter%2FAI_Demo_Project?ref=badge_large)
