@@ -3,7 +3,7 @@
 # Demo project in AI
 
 ### Project Description
-This project will be used to be familiar with open source contribution. We will build a distributed database that supports aggregation functions.
+This project will be used to be familiar with open source contribution. We will build a distributed database that supports aggregation functions. t
 
 ### How to contribute
 
