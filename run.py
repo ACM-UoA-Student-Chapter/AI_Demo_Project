@@ -41,7 +41,27 @@ class EncryptedDB():
 
         result = result.get()
         return self.helpers.values2string(result).replace(".","")
-
+    
+    def SUM(self,key_1,key_2):                                          #receiving key values as parameters
+        value_1=db.query(key_1)                                         #query value of first key from encrypted DB
+        value_2=db.query(key_2)                                         #query value of second key from encrypted DB
+        value_1.replace(' ','')                                         #remove spaces from value_1 (ex: if number contains spaces like in "(123) 456")
+        value_1.replace('(','')                                         #remove '(' from value_1 (ex: if number contains spaces like in "(123) 456" as in example given)
+        value_1.replace(')','')                                         #remove ')' from value_1 (ex: if number contains spaces like in "(123) 456" as in example given)
+        value_2.replace(' ','')                                         #remove spaces from value_2 (ex: if number contains spaces like in "(123) 456")
+        value_2.replace('(','')                                         #remove '(' from value_2 (ex: if number contains spaces like in "(123) 456" as in example given)
+        value_2.replace(')','')                                         #remove ')' from value_2 (ex: if number contains spaces like in "(123) 456" as in example given)
+        if value_1.isdigit():                                           #isdigit() returns true if string contains all digits, returns false if one non-digit found. Here, checking if value 1 is a string of digits
+            if value_2.isdigit():                                       #check if value_2 contains digits only
+                sum=value_1+value_2                                     #sum up values
+                print ("Sum=",sum)
+            else:
+                print("Value 2 is not a string. Sum not possible")
+        else:
+           print("Value 1 is not a string. Sum not possible") 
+                
+        
+            
 bob = sy.VirtualWorker(hook, id="bob").add_worker(sy.local_worker)
 alice = sy.VirtualWorker(hook, id="alice").add_worker(sy.local_worker)
 secure_worker = sy.VirtualWorker(hook, id="secure_worker").add_worker(sy.local_worker)
