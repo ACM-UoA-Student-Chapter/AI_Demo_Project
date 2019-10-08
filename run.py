@@ -53,7 +53,7 @@ class EncryptedDB():
         value_2.replace(')','')                                         #remove ')' from value_2 (ex: if number contains spaces like in "(123) 456" as in example given)
         if value_1.isdigit():                                           #isdigit() returns true if string contains all digits, returns false if one non-digit found. Here, checking if value 1 is a string of digits
             if value_2.isdigit():                                       #check if value_2 contains digits only
-                sum=value_1+value_2                                     #sum up values
+                sum=int(value_1)+int(value_2)                           #sum up values after casting string values to integers
                 print ("Sum=",sum)
             else:
                 print("Value 2 is not a string. Sum not possible")
