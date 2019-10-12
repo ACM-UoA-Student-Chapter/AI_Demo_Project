@@ -59,27 +59,7 @@ class EncryptedDB():
                 print("Value 2 is not a string. Sum not possible")
         else:
            print("Value 1 is not a string. Sum not possible") 
-        
-    def MIN(self,key_1,key_2):                                          #receiving key values as parameters
-        value_1=db.query(key_1)                                         #query value of first key from encrypted DB
-        value_2=db.query(key_2)                                         #query value of second key from encrypted DB
-        value_1.replace(' ','')                                         #remove spaces from value_1 (ex: if number contains spaces like in "(123) 456")
-        value_1.replace('(','')                                         #remove '(' from value_1 (ex: if number contains spaces like in "(123) 456" as in example given)
-        value_1.replace(')','')                                         #remove ')' from value_1 (ex: if number contains spaces like in "(123) 456" as in example given)
-        value_2.replace(' ','')                                         #remove spaces from value_2 (ex: if number contains spaces like in "(123) 456")
-        value_2.replace('(','')                                         #remove '(' from value_2 (ex: if number contains spaces like in "(123) 456" as in example given)
-        value_2.replace(')','')                                         #remove ')' from value_2 (ex: if number contains spaces like in "(123) 456" as in example given)
-        if value_1.isdigit():                                           #isdigit() returns true if string contains all digits, returns false if one non-digit found. Here, checking if value 1 is a string of digits
-            if value_2.isdigit():                                       #check if value_2 contains digits only
-               if int(value_1)<=int(value_2):                           #check if value_1 < value_2
-                    print("Minimum value:"+value_1+"(key_1)")           #print value_1 as minimum value
-               else:
-                    print("Minimum value:"+value_2+"(key_2)")           #print value_2 as minimum value
-            else:
-                print("Value 2 is not a string. Min operation not possible")
-        else:
-           print("Value 1 is not a string. Min operation not possible")          
-     
+                 
     def AVG(self,key_1,key_2):                                          #receiving key values as parameters
         value_1=db.query(key_1)                                         #query value of first key from encrypted DB
         value_2=db.query(key_2)                                         #query value of second key from encrypted DB
