@@ -46,7 +46,8 @@ This project will be used to be familiar with open source contribution. We will 
     23.    Leave a comment, that you are from ACM UoA Student Chapter
     24.    We will review your files and we will accept the request if everything is ok. If not, we will let you know the reason your request is rejected
     25.    DONE!
-
+    
+Here's a Markdown Cheatsheet for those of you who're getting started : [Markdown Cheatssheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 ------
 
 <p align = center> <b> ACM UoA Student Chapter </b> </p>
